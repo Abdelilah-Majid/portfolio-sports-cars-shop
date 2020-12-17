@@ -1,0 +1,131 @@
+.margin-top-big {
+ margin-top: 200px;
+}
+.margin-top-mid {
+ margin-top: 100px;
+}
+.margin-top-small {
+ margin-top: 50px;
+}
+.padding-top-big {
+ padding-top: 200px;
+}
+.padding-top-tiny {
+ padding-top: 20px;
+}
+.padding-bottom-tiny {
+ padding-bottom: 20px;
+}
+.fit-90pe {
+ width: 80%;
+}
+.margin-left-5pe {
+ margin-left: 10%;
+}
+.tablet-justify-evenly {
+ justify-content: space-evenly;
+}
+.disktop-flex {
+ display: flex;
+}
+.disktop-flex-row {
+ flex-direction: row;
+}
+.disktop-flex-colomn {
+ flex-direction: column;
+}
+.disktop-justify-between {
+ justify-content: space-between;
+}
+.disktop-justify-center {
+ justify-content: center;
+}
+.disktop-justify-evenly {
+ justify-content: space-evenly;
+}
+.disktop-justify-start {
+ justify-content: start;
+}
+.disktop-display-none {
+ display: none;
+}
+.width-80pe {
+ width: 80%;
+}
+/* ======================================================================= */
+main {
+ padding-top: 45px;
+ margin-top: -3px;
+}
+#main-header {
+ background-image: url("../../img/pexels-zachary-debottis-2568539.jpg");
+ background-size: 120%;
+ background-position: -100px -800px;
+ background-repeat: no-repeat;
+
+ color: white;
+}
+
+#drop-down-arrow {
+ left: 2px;
+ top: 15px;
+ animation-duration: 3000ms;
+ animation-name: drop-down;
+ animation-iteration-count: infinite;
+}
+#main-section-1 img {
+ width: 100%;
+}
+#main-section-1 {
+ text-align: center;
+ color: white;
+}
+#main-section-1 div div {
+ background-color: #2a2a2a;
+ width: 100%;
+}
+#main-section-1 div div div div {
+ padding: 15px 0;
+ width: 90%;
+}
+#main-section-1 #main-section-1-header-div-div {
+ background-color: white;
+ color: black;
+}
+@keyframes drop-down {
+ from {
+  transform: rotate(0deg);
+  top: 15px;
+ }
+ 30% {
+  top: 40px;
+ }
+ 31% {
+  top: 35px;
+ }
+ 33% {
+  transform: rotate(0deg);
+ }
+ 35% {
+  transform: rotate(-20deg);
+ }
+
+ 41% {
+  top: 35px;
+  transform: rotate(20deg);
+ }
+ 48% {
+  transform: rotate(0deg);
+ }
+ 49% {
+  top: 40px;
+ }
+ 70% {
+  top: 15px;
+ }
+ 75% {
+ }
+ to {
+  top: 15px;
+ }
+}

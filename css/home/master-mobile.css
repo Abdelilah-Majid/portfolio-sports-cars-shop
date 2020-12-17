@@ -1,0 +1,122 @@
+main {
+ padding-top: 45px;
+ margin-top: -3px;
+}
+#main-header {
+ background-image: url("../../img/pexels-hero-firari.jpg");
+ background-size: auto 120%;
+ background-position: -100px -40px;
+ background-repeat: no-repeat;
+
+ color: white;
+}
+
+#drop-down-arrow {
+ left: 2px;
+ top: 15px;
+ animation-duration: 3000ms;
+ animation-name: drop-down;
+ animation-iteration-count: infinite;
+}
+#main-section-0-header {
+ background-image: url("../../img/pexels-darius-krause-2539244.jpg");
+ background-repeat: no-repeat;
+ background-size: auto 100%;
+ color: white;
+}
+#main-section-0-header-button {
+ width: 10em;
+}
+#main-section-1 img {
+ width: 100%;
+}
+#main-section-1 {
+ text-align: center;
+ color: white;
+}
+#main-section-1 div div {
+ background-color: #2a2a2a;
+ width: 100%;
+}
+
+#main-section-1 div div div div {
+ padding: 15px 0;
+ width: 90%;
+}
+#main-section-1 #main-section-1-header-div-div {
+ background-color: white;
+ color: black;
+}
+@keyframes drop-down {
+ from {
+  transform: rotate(0deg);
+  top: 15px;
+ }
+ 30% {
+  top: 40px;
+ }
+ 31% {
+  top: 35px;
+ }
+ 33% {
+  transform: rotate(0deg);
+ }
+ 35% {
+  transform: rotate(-20deg);
+ }
+
+ 41% {
+  top: 35px;
+  transform: rotate(20deg);
+ }
+ 48% {
+  transform: rotate(0deg);
+ }
+ 49% {
+  top: 40px;
+ }
+ 70% {
+  top: 15px;
+ }
+ 75% {
+ }
+ to {
+  top: 15px;
+ }
+}
+@media screen and (orientation: landscape) {
+ .margin-top-big {
+  margin-top: 50px;
+ }
+ .margin-top-mid {
+  margin-top: 25px;
+ }
+ .margin-top-small {
+  margin-top: 12px;
+ }
+ .padding-top-big {
+  padding-top: 50px;
+ }
+ .padding-top-tiny {
+  padding-top: 10px;
+ }
+ .padding-bottom-tiny {
+  padding-bottom: 10px;
+ }
+
+ #main-header {
+  background-image: url("../../img/pexels-hero-firari.jpg");
+  background-size: 120%;
+  background-position: -100px -500px;
+  background-repeat: no-repeat;
+
+  color: white;
+ }
+ #main-section-0-header {
+  background-image: url("../../img/pexels-darius-krause-2539244.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 -300px;
+  color: white;
+ }
+}

@@ -1,0 +1,42 @@
+header#nav-header {
+ position: fixed;
+ width: 100%;
+ top: 0;
+ left: 0;
+ right: 0;
+ z-index: 10;
+}
+nav {
+ background-color: #2a2a2a;
+ height: 45px;
+ width: 100%;
+}
+#nav-menu {
+ right: 6px;
+ top: 6px;
+ z-index: 100;
+}
+#nav-1 {
+ right: -61.804697157%;
+ margin-top: -3px;
+ width: 61.804697157%;
+ height: 100vh;
+}
+#nav-ul {
+ margin-top: 50px;
+ margin-left: 25px;
+ font-size: 1.5rem;
+}
+#nav-ul li:first-child {
+ margin-top: 0;
+}
+#nav-ul li {
+ margin-top: 40px;
+}
+#nav-ul-current {
+ color: #da1e37;
+ /* text-shadow: 0px 0px 0px #fff; */
+}
+.mobile-display-none {
+ display: none;
+}

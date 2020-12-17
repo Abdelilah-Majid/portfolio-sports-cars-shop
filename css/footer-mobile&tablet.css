@@ -1,0 +1,13 @@
+#nav-2 {
+ height: fit-content;
+ padding: 50px 0;
+}
+#nav-2 li {
+ margin-top: 50px;
+}
+#nav-2 li:first-child {
+ margin-top: 0;
+}
+#nav-2 ul {
+ margin-top: 50px;
+}

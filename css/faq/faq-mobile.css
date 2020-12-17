@@ -1,0 +1,90 @@
+main {
+ padding-top: 45px;
+ margin-top: -3px;
+}
+#main-header {
+ background-image: url("../../img/pexels-question-1336.jpg");
+ background-size: auto 120%;
+ background-position: -400px -40px;
+ background-repeat: no-repeat;
+
+ color: white;
+}
+#drop-down-arrow {
+ left: 2px;
+ top: 15px;
+ animation-duration: 3000ms;
+ animation-name: drop-down;
+ animation-iteration-count: infinite;
+}
+
+#qna div div {
+ background-color: #2a2a2a;
+}
+.qna-circle {
+ color: #da1e37;
+ width: 60px;
+ height: 60px;
+ border-radius: 1000px;
+}
+.qna-circle p {
+ padding-top: 2px;
+ padding-right: 1px;
+ font-size: 2.7rem;
+}
+.qna-square {
+ color: white;
+ padding: 5px;
+ width: 85%;
+ border-radius: 1000px;
+}
+.qna-square p {
+ width: 100%;
+}
+@keyframes drop-down {
+ from {
+  transform: rotate(0deg);
+  top: 15px;
+ }
+ 30% {
+  top: 40px;
+ }
+ 31% {
+  top: 35px;
+ }
+ 33% {
+  transform: rotate(0deg);
+ }
+ 35% {
+  transform: rotate(-20deg);
+ }
+
+ 41% {
+  top: 35px;
+  transform: rotate(20deg);
+ }
+ 48% {
+  transform: rotate(0deg);
+ }
+ 49% {
+  top: 40px;
+ }
+ 70% {
+  top: 15px;
+ }
+ 75% {
+ }
+ to {
+  top: 15px;
+ }
+}
+@media screen and (orientation: landscape) {
+ #main-header {
+  background-image: url("../../img/pexels-question-1336.jpg");
+  background-size: 140%;
+  background-position: -200px -40px;
+  background-repeat: no-repeat;
+
+  color: white;
+ }
+}
